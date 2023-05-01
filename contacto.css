@@ -1,0 +1,106 @@
+*{
+    /* border: 1px black solid; */
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+
+}
+
+/****************** Contacto ******************/
+
+.informacion{
+    background-color: #ffc045;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+h3{
+    /* width: 100%; */
+    width: 100%;
+    text-align: center;
+    text-shadow: 1px 1px 5px #ffffff;
+}
+
+img{
+    width: 30%;
+    /* float: left; */
+    margin: 10px 10px 10px 10px;
+}
+
+p{
+    width: 60%;
+    padding:10px 20px 10px 20px;
+}
+
+
+/****************** Formulario ******************/
+
+
+.formulario{
+    background-color: #ffc045;
+    margin: 20px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+fieldset{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+fieldset div{
+    width: 100%;
+    margin: 5px 0px 5px 0px;
+}
+
+.nombre,.apellido , .correo, .mensaje{
+    width: 25%;
+}
+
+.input-nombre,.input-apellido , .input-correo, .input-mensaje{
+    width: 74%
+}
+
+textarea{
+    width: 99%;
+    resize: vertical;
+    padding: 5px;
+}
+
+input{
+    width: 100%;
+}
+/* 
+.nombre{
+    width: 25%; 
+    margin:5px;
+}
+
+.correo{
+    width: 40%;
+    margin:5px;
+
+}
+
+.mensaje{
+    padding: 20px 20px 20px 20px; 
+    margin: 5px;
+}
+
+#mensaje{
+    padding: 20px 20px 20px 20px;
+    margin:5;
+}
+
+input[type=submit]:hover{
+    background-color: #D6D6D6;
+} */

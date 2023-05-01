@@ -1,0 +1,87 @@
+*{
+    font-family: 'Kamit', sans-serif;
+    margin:0px;
+    padding: 0px;
+
+
+
+    /* border:1px solid black;  */
+}
+
+/******************* Main ******************/
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+}
+
+/******************* Header ******************/
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #0a91ab;
+}
+
+h1{
+    width: fit-content;
+    color: #ffc045;
+}
+
+.header-logo{
+    width: 25%;
+}
+
+/******************* Nav ******************/
+
+nav, .nav{
+    background-color: #ffc045;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    z-index: 50;
+}
+
+nav a{
+    color: black;
+    text-transform: uppercase;
+
+    padding: 3px;
+    margin: 0px 5px 0px 5px
+}
+
+/****************** Footer ******************/
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.footer-logos-rs{
+    height: 35px;
+    width: 35px;
+}
+
+/****************** Anchors ******************/
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    color:gray;
+}
+
+/****************** Tipos de Letra ******************/
+
+span{
+    font-weight: bolder;
+}

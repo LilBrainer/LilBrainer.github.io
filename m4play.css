@@ -5,7 +5,7 @@
 
 
 
-    /* border:1px solid black;  */
+    border:1px solid black; 
 }
 
 /******************* Main ******************/
@@ -25,12 +25,12 @@ header{
     align-items: center;
     justify-content: center;
 
-    background-color: #0a91ab;
+    background-color: #7BC4C4;
 }
 
 h1{
     width: fit-content;
-    color: #ffc045;
+    color: #C1DB7F;
 }
 
 .header-logo{
@@ -40,7 +40,7 @@ h1{
 /******************* Nav ******************/
 
 nav, .nav{
-    background-color: #ffc045;
+    background-color: #C1DB7F;
     display: flex;
     width: 100%;
     justify-content: center;
